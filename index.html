@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/animated.css">
+
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
 </head>
 
 <body>
@@ -33,7 +36,7 @@
 
     <main>
         <div class="hello d-flex align-items-center">
-            <img src="elements/hi.png" alt="">
+            <img src="elements/hi.png" alt="" class="hi-animate">
             <div>
                 <p>Hello, I am</p>
                 <h1>Behruz</h1>
@@ -42,19 +45,40 @@
         <div class="hello-2 d-flex align-items-center">
             <img src="./elements/laptop.png" alt="">
             <div>
-            <p>I am a profession</p>
-            <h1>Web Designer</h1>
+                <p>I am a profession</p>
+                <h1 class="cd-headline clip is-full-width">
+                    <span class="cd-words-wrapper">
+                        <b class="is-visible">Web Developer</b>
+                        <b>UX&UI Designer</b>
+                        <b>Video Editor</b>
+                    </span>
+                </h1>
+            </div>
         </div>
+        <div>
+            <img src="elements/Ellipse.svg" class="el-2" alt="">
+            <img src="./image/man.png" class="man" alt="">
         </div>
     </main>
+    <!-- <section class="cd-intro">
+		<h1 class="cd-headline clip is-full-width">
+			<span>My favourite food is</span>
+			<span class="cd-words-wrapper">
+				<b class="is-visible">pizza</b>
+				<b>sushi</b>
+				<b>steak</b>
+			</span>
+		</h1>
+	</section> -->
+    <img src="elements/Ellipse.svg" class="el-1" alt="">
 
 
 
-    <div>
-        <img src="elements/Ellipse.svg" class="el-1" alt="">
-        <img src="elements/Ellipse.svg" class="el-2" alt="">
-        <img src="./image/man.png" class="man" alt="">
-    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+
 </body>
 
 </html>
